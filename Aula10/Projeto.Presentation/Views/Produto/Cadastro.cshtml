@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Cadastro";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+@section scripts{
+    <script src="~/Scripts/_produto/cadastro.js"></script>
+}
+
+
+<h4>Cadastro de Produtos</h4>
+<a href="/Home/Index">Página inicial</a>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <div id="erros" class="text-danger"></div>
+        <label>Nome do Produto:</label>
+        <input type="text" id="nome" class="form-control"
+               placeholder="Nome do Produto" />
+        <br />
+        <label>Preço:</label>
+        <input type="text" id="preco" class="form-control"
+               placeholder="Preço" />
+        <br />
+        <label>Quantidade:</label>
+        <input type="text" id="quantidade" class="form-control"
+               placeholder="Quantidade" />
+        <br />
+        <button id="btncadastro" class="btn btn-success">
+            Cadastrar Produto
+        </button>
+        <br />
+        <br />
+        <div id="mensagem"></div>
+    </div>
+</div>

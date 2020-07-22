@@ -1,0 +1,124 @@
+﻿@{
+    ViewBag.Title = "Consulta";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+@section scripts{
+    <script src="~/Scripts/_produto/consulta.js"></script>
+}
+
+<h4>Consulta de Produtos</h4>
+<a href="/Home/Index">Página inicial</a>
+<hr />
+
+<div id="mensagem"></div>
+
+<div class="row">
+    <div class="col-md-12 text-right">
+        <a href="/Produto/Relatorio"
+           class="btn btn-warning btn-sm">
+            Gerar Relatório de Produtos
+        </a>
+    </div>
+</div>
+
+<table id="tabela" class="table table-bordered table-hover table-striped">
+    <thead>
+        <tr>
+            <th class="bg-info text-white">Código</th>
+            <th class="bg-info text-white">Nome do Produto</th>
+            <th class="bg-info text-white">Preço</th>
+            <th class="bg-info text-white">Quantidade</th>
+            <th class="bg-info text-white">Total</th>
+            <th class="bg-info text-white">Operações</th>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+
+<!-- Janela modal para edição de produto -->
+<div id="janelaedicao" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-primary">
+                <h3 class="text-white">Atualizar Produto</h3>
+            </div>
+            <div class="modal-body">
+
+                <!-- local para exibir as mensagens de erro de validação -->
+                <div id="erros" class="text-danger"></div>
+
+                <label>Código do Produto:</label>
+                <input type="text" id="idproduto_edicao"
+                       class="form-control" readonly="readonly" />
+                <br />
+
+
+                <label>Nome do Produto:</label>
+                <input type="text" id="nome_edicao"
+                       class="form-control" />
+                <br />
+
+                <label>Preço:</label>
+                <input type="text" id="preco_edicao"
+                       class="form-control" />
+                <br />
+
+                <label>Quantidade:</label>
+                <input type="text" id="quantidade_edicao"
+                       class="form-control" />
+                <br />
+
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-info" data-dismiss="modal">
+                    Cancelar
+                </button>
+                <button id="btnedicao" class="btn btn-primary">
+                    Atualizar Produto
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Janela modal para exclusão de produto -->
+<div id="janelaexclusao" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-danger">
+                <h3 class="text-white">Excluir Produto</h3>
+            </div>
+            <div class="modal-body">
+
+                <h4>Deseja realmente excluir este produto?</h4>
+                <hr />
+
+                Código do Produto: <label id="idproduto_exclusao"></label>
+                <br />
+
+                Nome do Produto: <label id="nome_exclusao"></label>
+                <br />
+
+                Preço: <label id="preco_exclusao"></label>
+                <br />
+
+                Quantidade: <label id="quantidade_exclusao"></label>
+                <br />
+
+                Total: <label id="total_exclusao"></label>
+                <br />
+
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-info" data-dismiss="modal">
+                    Cancelar
+                </button>
+                <button id="btnexclusao" class="btn btn-danger">
+                    Excluir Produto
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

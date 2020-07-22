@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Projeto</title>
+    <!-- Folhas de estilo CSS -->
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="card card-body bg-dark">
+            <h3 class="text-white">Sistema de Controle de Produtos</h3>
+            <p class="text-white">
+                Aula de C# WebDeveloper - COTI Informática
+            </p>
+        </div>
+        <br />
+        @RenderBody()
+    </div>
+    <!-- arquivos javascript -->
+    <script src="~/Scripts/jquery-3.0.0.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

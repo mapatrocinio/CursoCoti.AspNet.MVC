@@ -1,0 +1,76 @@
+﻿@model List<Projeto.Presentation.Models.FuncionarioConsultaViewModel>
+
+@{
+    ViewBag.Title = "Consulta";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+<h4>Consulta de Funcionários</h4>
+<a href="/Home/Index">Página inicial</a>
+<hr />
+
+    <div class="row">
+        <div class="col-md-3">
+            @using (Html.BeginForm())
+            {
+                <label>Nome do Funcionário:</label>
+                <input type="text" class="form-control"
+                       name="Nome" placeholder="Digite aqui" />
+
+                <input type="submit" value="Pesquisar Funcionários"
+                       class="btn btn-success btn-sm" />
+            }
+        </div>
+    </div>
+
+    <br />
+
+    <div>
+        <strong>@TempData["Mensagem"]</strong>
+    </div>
+
+    <table class="table table-bordered table-hover table-striped">
+        <thead>
+            <tr>
+                <th class="bg-info text-white">Código</th>
+                <th class="bg-info text-white">Nome do Funcionário</th>
+                <th class="bg-info text-white">Salário</th>
+                <th class="bg-info text-white">Data de Admissão</th>
+                <th class="bg-info text-white">Setor</th>
+                <th class="bg-info text-white">Função</th>
+                <th class="bg-info text-white" width="200">Operações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.IdFuncionario</td>
+                    <td>@item.Nome</td>
+                    <td>@item.Salario.ToString("c")</td>
+                    <td>@item.DataAdmissao.ToString("dd/MM/yyyy")</td>
+                    <td>@item.NomeSetor</td>
+                    <td>@item.NomeFuncao</td>
+                    <td>
+                        <a href="/Funcionario/Edicao/@item.IdFuncionario"
+                           class="btn btn-primary btn-sm">
+                            Atualizar
+                        </a>
+                        <a href="/Funcionario/Exclusao/@item.IdFuncionario"
+                           onclick="return confirm
+				('Deseja excluir este funcionário?');"
+                           class="btn btn-danger btn-sm">
+                            Excluir
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="7">
+                    Quantidade de registros: @Model.Count
+                </td>
+            </tr>
+        </tfoot>
+    </table>
