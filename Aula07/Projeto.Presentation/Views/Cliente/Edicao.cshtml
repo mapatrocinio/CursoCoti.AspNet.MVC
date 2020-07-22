@@ -1,0 +1,35 @@
+﻿@model Projeto.Presentation.Models.ClienteEdicaoViewModel
+@{
+    ViewBag.Title = "Edicao";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+<h4>Atualizar dados de Cliente</h4>
+<a href="/Cliente/Consulta">Consulta de Clientes</a>
+<br />
+<br />
+@using (Html.BeginForm())
+{
+    <div class="text-danger">
+        @Html.ValidationSummary()
+    </div>
+    <label>Código do Cliente:</label>
+    @Html.TextBoxFor(model => model.IdCliente,
+    new { @class = "form-control col-md-4", @readonly = "readonly" })
+    <br />
+    <label>Nome do Cliente:</label>
+    @Html.TextBoxFor(model => model.Nome,
+    new { @class = "form-control col-md-4" })
+    <br />
+    <label>Email do Cliente:</label>
+    @Html.TextBoxFor(model => model.Email,
+    new { @class = "form-control col-md-4" })
+    <br />
+    <label>Data de Cadastro:</label>
+    @Html.TextBoxFor(model => model.DataCadastro,
+    new { @class = "form-control col-md-4", @readonly = "readonly" })
+    <br />
+    <input type="submit" value="Atualizar Cliente" class="btn btn-primary" />
+    <br />
+    <br />
+    <strong>@ViewData["Mensagem"]</strong>
+}

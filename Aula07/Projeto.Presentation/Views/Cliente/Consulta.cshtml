@@ -1,0 +1,46 @@
+﻿@model List<Projeto.Presentation.Models.ClienteConsultaViewModel>
+@{
+    ViewBag.Title = "Consulta";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+<h4>Consulta de Clientes</h4>
+<a href="/Home/Index">Página inicial</a>
+<br />
+<br />
+<div>
+    <strong>@TempData["Mensagem"]</strong>
+</div>
+<table class="table table-bordered table-striped table-hover">
+    <thead>
+        <tr>
+            <th class="bg-info text-white">Código</th>
+            <th class="bg-info text-white">Nome do Cliente</th>
+            <th class="bg-info text-white">Email</th>
+            <th class="bg-info text-white">Data de Cadastro</th>
+            <th class="bg-info text-white">Operações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td> @item.IdCliente </td>
+                <td> @item.Nome </td>
+                <td> @item.Email </td>
+                <td> @item.DataCadastro.ToString("dd/MM/yyyy") </td>
+                <td>
+                    <a href="/Cliente/Edicao/@item.IdCliente"
+                       class="btn btn-primary btn-sm">Atualizar</a>
+                    <a href="/Cliente/Exclusao/@item.IdCliente"
+                       class="btn btn-danger btn-sm"
+                       onclick="return confirm('Deseja excluir o Cliente @item.Nome?');">Excluir</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="5">Quantidade de Clientes: @Model.Count</td>
+        </tr>
+    </tfoot>
+</table>
