@@ -1,0 +1,6 @@
+C:\Users\Meta\Desktop\Curso_Coti\Aula02\Projeto02HerancaTurma\bin\Debug\Projeto02HerancaTurma.exe.config
+C:\Users\Meta\Desktop\Curso_Coti\Aula02\Projeto02HerancaTurma\bin\Debug\Projeto02HerancaTurma.exe
+C:\Users\Meta\Desktop\Curso_Coti\Aula02\Projeto02HerancaTurma\bin\Debug\Projeto02HerancaTurma.pdb
+C:\Users\Meta\Desktop\Curso_Coti\Aula02\Projeto02HerancaTurma\obj\Debug\Projeto02HerancaTurma.csprojResolveAssemblyReference.cache
+C:\Users\Meta\Desktop\Curso_Coti\Aula02\Projeto02HerancaTurma\obj\Debug\Projeto02HerancaTurma.exe
+C:\Users\Meta\Desktop\Curso_Coti\Aula02\Projeto02HerancaTurma\obj\Debug\Projeto02HerancaTurma.pdb

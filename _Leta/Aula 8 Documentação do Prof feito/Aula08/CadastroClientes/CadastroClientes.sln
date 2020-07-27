@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Camada De Aplicação", "1 - Camada De Aplicação", "{E76D2435-BC5A-487E-B990-292BDCC58E04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Camada Regra De Negócio", "2 - Camada Regra De Negócio", "{AB8522D3-0302-4224-A543-B343CA863FB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Camada De Acesso a Dados", "3 - Camada De Acesso a Dados", "{A0D42CF3-2004-40CB-B628-BA3BF583FD1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroClientes", "CadastroClientes\CadastroClientes.csproj", "{AB24C89C-1C37-4E43-AA14-7914911C560E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projeto.DAL", "Projeto.DAL\Projeto.DAL.csproj", "{F05B2283-FE55-46EF-A8F2-259E7ED9286D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projeto.BLL", "ClienteBusiness\Projeto.BLL.csproj", "{69DB22EE-5E3E-456A-9D13-49D841383192}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB24C89C-1C37-4E43-AA14-7914911C560E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB24C89C-1C37-4E43-AA14-7914911C560E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB24C89C-1C37-4E43-AA14-7914911C560E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB24C89C-1C37-4E43-AA14-7914911C560E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F05B2283-FE55-46EF-A8F2-259E7ED9286D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F05B2283-FE55-46EF-A8F2-259E7ED9286D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F05B2283-FE55-46EF-A8F2-259E7ED9286D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F05B2283-FE55-46EF-A8F2-259E7ED9286D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69DB22EE-5E3E-456A-9D13-49D841383192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69DB22EE-5E3E-456A-9D13-49D841383192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69DB22EE-5E3E-456A-9D13-49D841383192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69DB22EE-5E3E-456A-9D13-49D841383192}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AB24C89C-1C37-4E43-AA14-7914911C560E} = {E76D2435-BC5A-487E-B990-292BDCC58E04}
+		{F05B2283-FE55-46EF-A8F2-259E7ED9286D} = {A0D42CF3-2004-40CB-B628-BA3BF583FD1D}
+		{69DB22EE-5E3E-456A-9D13-49D841383192} = {AB8522D3-0302-4224-A543-B343CA863FB4}
+	EndGlobalSection
+EndGlobal

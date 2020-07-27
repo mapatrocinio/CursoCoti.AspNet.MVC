@@ -1,0 +1,7 @@
+C:\Users\Meta\Desktop\Aula08\CadastroClientes\ClienteBusiness\bin\Debug\ClienteBusiness.dll
+C:\Users\Meta\Desktop\Aula08\CadastroClientes\ClienteBusiness\bin\Debug\ClienteBusiness.pdb
+C:\Users\Meta\Desktop\Aula08\CadastroClientes\ClienteBusiness\bin\Debug\Projeto.DAL.dll
+C:\Users\Meta\Desktop\Aula08\CadastroClientes\ClienteBusiness\bin\Debug\Projeto.DAL.pdb
+C:\Users\Meta\Desktop\Aula08\CadastroClientes\ClienteBusiness\obj\Debug\Projeto.BLL.csprojResolveAssemblyReference.cache
+C:\Users\Meta\Desktop\Aula08\CadastroClientes\ClienteBusiness\obj\Debug\ClienteBusiness.dll
+C:\Users\Meta\Desktop\Aula08\CadastroClientes\ClienteBusiness\obj\Debug\ClienteBusiness.pdb

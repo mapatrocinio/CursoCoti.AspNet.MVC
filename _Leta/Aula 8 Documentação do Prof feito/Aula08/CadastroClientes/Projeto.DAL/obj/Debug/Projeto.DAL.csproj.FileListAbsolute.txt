@@ -1,0 +1,5 @@
+C:\Users\Meta\Desktop\Aula08\CadastroClientes\Projeto.DAL\bin\Debug\Projeto.DAL.dll
+C:\Users\Meta\Desktop\Aula08\CadastroClientes\Projeto.DAL\bin\Debug\Projeto.DAL.pdb
+C:\Users\Meta\Desktop\Aula08\CadastroClientes\Projeto.DAL\obj\Debug\Projeto.DAL.dll
+C:\Users\Meta\Desktop\Aula08\CadastroClientes\Projeto.DAL\obj\Debug\Projeto.DAL.pdb
+C:\Users\Meta\Desktop\Aula08\CadastroClientes\Projeto.DAL\obj\Debug\Projeto.DAL.csprojResolveAssemblyReference.cache

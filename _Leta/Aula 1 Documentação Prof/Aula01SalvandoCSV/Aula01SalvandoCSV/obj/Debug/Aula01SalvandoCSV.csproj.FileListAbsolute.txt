@@ -1,0 +1,12 @@
+C:\Users\Meta\Desktop\Curso_Coti\Aula01SalvandoCSV\Aula01SalvandoCSV\bin\Debug\Aula01SalvandoCSV.exe.config
+C:\Users\Meta\Desktop\Curso_Coti\Aula01SalvandoCSV\Aula01SalvandoCSV\bin\Debug\Aula01SalvandoCSV.exe
+C:\Users\Meta\Desktop\Curso_Coti\Aula01SalvandoCSV\Aula01SalvandoCSV\bin\Debug\Aula01SalvandoCSV.pdb
+C:\Users\Meta\Desktop\Curso_Coti\Aula01SalvandoCSV\Aula01SalvandoCSV\obj\Debug\Aula01SalvandoCSV.csprojResolveAssemblyReference.cache
+C:\Users\Meta\Desktop\Curso_Coti\Aula01SalvandoCSV\Aula01SalvandoCSV\obj\Debug\Aula01SalvandoCSV.exe
+C:\Users\Meta\Desktop\Curso_Coti\Aula01SalvandoCSV\Aula01SalvandoCSV\obj\Debug\Aula01SalvandoCSV.pdb
+C:\Users\Meta\Desktop\Curso_Coti\Material Curso Coti\Aula 1 Documentação Prof\Aula01SalvandoCSV\Aula01SalvandoCSV\bin\Debug\Aula01SalvandoCSV.exe.config
+C:\Users\Meta\Desktop\Curso_Coti\Material Curso Coti\Aula 1 Documentação Prof\Aula01SalvandoCSV\Aula01SalvandoCSV\obj\Debug\Aula01SalvandoCSV.exe
+C:\Users\Meta\Desktop\Curso_Coti\Material Curso Coti\Aula 1 Documentação Prof\Aula01SalvandoCSV\Aula01SalvandoCSV\obj\Debug\Aula01SalvandoCSV.pdb
+C:\Users\Meta\Desktop\Curso_Coti\Material Curso Coti\Aula 1 Documentação Prof\Aula01SalvandoCSV\Aula01SalvandoCSV\bin\Debug\Aula01SalvandoCSV.exe
+C:\Users\Meta\Desktop\Curso_Coti\Material Curso Coti\Aula 1 Documentação Prof\Aula01SalvandoCSV\Aula01SalvandoCSV\bin\Debug\Aula01SalvandoCSV.pdb
+C:\Users\Meta\Desktop\Curso_Coti\Material Curso Coti\Aula 1 Documentação Prof\Aula01SalvandoCSV\Aula01SalvandoCSV\obj\Debug\Aula01SalvandoCSV.csprojResolveAssemblyReference.cache

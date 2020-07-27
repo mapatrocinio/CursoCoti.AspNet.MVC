@@ -1,0 +1,7 @@
+C:\Users\Thiago Leta Home\Desktop\Material Curso Coti\Aula 1 Documentação Prof\GravandoCSV\Gravando.CSV\bin\Debug\Gravando.CSV.exe.config
+C:\Users\Thiago Leta Home\Desktop\Material Curso Coti\Aula 1 Documentação Prof\GravandoCSV\Gravando.CSV\bin\Debug\Gravando.CSV.exe
+C:\Users\Thiago Leta Home\Desktop\Material Curso Coti\Aula 1 Documentação Prof\GravandoCSV\Gravando.CSV\bin\Debug\Gravando.CSV.pdb
+C:\Users\Thiago Leta Home\Desktop\Material Curso Coti\Aula 1 Documentação Prof\GravandoCSV\Gravando.CSV\obj\Debug\Gravando.CSV.csprojResolveAssemblyReference.cache
+C:\Users\Thiago Leta Home\Desktop\Material Curso Coti\Aula 1 Documentação Prof\GravandoCSV\Gravando.CSV\obj\Debug\Gravando.CSV.csproj.CoreCompileInputs.cache
+C:\Users\Thiago Leta Home\Desktop\Material Curso Coti\Aula 1 Documentação Prof\GravandoCSV\Gravando.CSV\obj\Debug\Gravando.CSV.exe
+C:\Users\Thiago Leta Home\Desktop\Material Curso Coti\Aula 1 Documentação Prof\GravandoCSV\Gravando.CSV\obj\Debug\Gravando.CSV.pdb
